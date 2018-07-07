@@ -1,4 +1,4 @@
-package Home;
+package stockservice;
 
 public class Stock {
   private String stockId;

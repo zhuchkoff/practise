@@ -1,4 +1,4 @@
-package Home;
+package stockservice;
 
 import java.util.ArrayList;
 import java.util.Collections;
