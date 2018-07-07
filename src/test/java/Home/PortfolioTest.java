@@ -7,7 +7,7 @@ import java.util.List;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class PortofiloTest {
+public class PortfolioTest {
 
   private Portofilo portofilo;
   private StockService stockService;
@@ -15,9 +15,9 @@ public class PortofiloTest {
   private Stock stockMicrosoft;
 
   public static void main(String[] args) {
-    PortofiloTest portofiloTest = new PortofiloTest();
-    portofiloTest.setUp();
-    boolean testPassed = portofiloTest.testMarketValue();
+    PortfolioTest portfolioTest = new PortfolioTest();
+    portfolioTest.setUp();
+    boolean testPassed = portfolioTest.testMarketValue();
     System.out.println(testPassed ? " passed" : " failed");
   }
 
