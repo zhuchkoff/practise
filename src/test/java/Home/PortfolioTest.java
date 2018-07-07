@@ -33,7 +33,7 @@ public class PortfolioTest {
   }
 
   private boolean testMarketValue() {
-    double googleStockPrice = 110.0;
+    double googleStockPrice = 120.0;
     double microsoftStockPrice = 234.0;
 
     when(stockService.getPrice(stockGoogle)).thenReturn(googleStockPrice);
